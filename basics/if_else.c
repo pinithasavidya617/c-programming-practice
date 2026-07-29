@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main{
+int main (){
     int mark = 68;
 
-    if(100 > mark >= 75){
+    if(mark >= 75 && mark <= 100){
         printf("Grade A");
     }
     else if(mark >= 65){
