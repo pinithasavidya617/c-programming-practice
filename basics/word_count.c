@@ -8,7 +8,7 @@ int main(){
 
     int i = 0;
     int wrd = 1;
-    // Spaces = words + 1
+    // Words = spaces + 1
 
     while (inputStr[i] != '\0'){
         if (inputStr[i] == ' ')
