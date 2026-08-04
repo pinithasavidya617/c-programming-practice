@@ -10,16 +10,16 @@ int main(){
 
     char temp;
 
-    while( *start < *end){
+    while( start < end){
         temp = *start;
         *start = *end;
         *end = temp;
 
-        *start++;
-        *end--;
+        start++;
+        end--;
     }
 
     printf("%s", inputStr);
 
     return 0;
-}
+}   
